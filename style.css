@@ -245,6 +245,19 @@ html{
 	margin-bottom: 20px;
 }
 
+.project-back .about-info-button {
+	padding: 1.5rem 2.1rem;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.548);
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 /* start projects */
 .projects{
     flex-direction: column;
@@ -378,7 +391,28 @@ html{
 }
 /* End Footer section  */
 
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
 
+  button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    
+  }
+  
+  #submitbutton {
+    display: flex; 
+    justify-content: center;
+  }
+  
 
 
 @media only screen and (min-width: 768px) {
