@@ -346,6 +346,12 @@ html{
 	position: relative;
 	color: white;
 }
+.projects .projects-info .project:nth-child(4) .project-card .project-front {
+	background-image: url(./images/img-2.jpg);
+	background-size: cover;
+	position: relative;
+	color: white;
+}
 .projects .projects-info .project:nth-child(2) .project-card .project-front::after {
 	content: '';
 	position: absolute;
